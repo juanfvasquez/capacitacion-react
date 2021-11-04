@@ -43,3 +43,10 @@ obj.clave5 = null
 
 console.log(obj)
 console.log(obj['noExiste'])
+
+const nombre = 'Juan'
+const apellido = 'Vasquez'
+
+const persona = { nombre, apellido }
+
+console.log(persona)
